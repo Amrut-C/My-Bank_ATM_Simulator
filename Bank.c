@@ -42,7 +42,7 @@ int main() {
     int flag = 1;
     double deposit_amount, withdraw_amount;
     
-    // ✅ FIXED: Use /tmp/ for Linux/Mac or user folder for Windows
+
     FILE *ptr = fopen("/tmp/History.txt", "a+");  
     
    
@@ -134,3 +134,4 @@ int main() {
     }
     return 0;
 }
+
